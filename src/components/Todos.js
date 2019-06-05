@@ -11,7 +11,7 @@ class Todos extends Component {
   
 }
 
-// PropTypes
+// PropType Validation
 Todos.propTypes = {
   todos: PropTypes.array.isRequired,
   toggleComplete: PropTypes.func.isRequired,

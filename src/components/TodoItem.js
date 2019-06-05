@@ -24,6 +24,7 @@ export class TodoItem extends Component {
   }
 }
 
+// Styles
 const btnStyle = {
   background: '#ff0000',
   color: '#fff',
@@ -40,7 +41,7 @@ const checkBoxStyle = {
   marginRight: '1rem'
 }
 
-// PropTypes
+// PropType Validation
 TodoItem.propTypes = {
   todo: PropTypes.object.isRequired,
   toggleComplete: PropTypes.func.isRequired,
