@@ -1,9 +1,58 @@
-# Welcome to the Todo List react app
+# React TodoList
+A simple React Front End application that gets a list of dummy todos from [JSONplaceholder](http://jsonplaceholder.typicode.com/).
 
+## Table of Contents
 
+1. [Usage](#usage)
+1. [Requirements](#requirements)
+1. [Features](#features)
+1. [Roadmap](#roadmap)
+1. [Given More Time](#given-more-time)
+1. [Portfolio](#portfolio)
+1. [Development](#development) 
+    1. [Create React App](#create-react-app)
 
+## Usage
 
+> We all need to make todo lists sometimes. This app allows you to add or remove todos from the list. *__Since this app is used to demonstrate my ability to control state among components in React without using Redux, it does not have a working backend—any changes made will not persist after a page reload.__*
 
+## Requirements
+
+- Node 10.2.1 or higher
+- NPM 5.6.0 or higher
+
+## Features
+
+The features of this app are very simple:
+
+1. You can add a todo to the list
+1. You can mark a todo completed
+1. You can remove a todo by clicking the 'x'
+
+## Roadmap
+
+- Unit Testing.
+- Integration Testing.
+- As a user, I would like to be able to create an account that would store my todos.
+- As a user, I would like to see that when I add a todo, it persists when I am logged in.
+- As a user, I would like to see that nothing happens when the submit button is clicked and I haven't added anything in the addTodo box.
+- As a user, I would like to see that when I delete a todo, only the todo I click is deleted.
+
+## Given More Time
+
+Given more time I would add Unit, Integration and End to End testing to the app. Also, I would add input sanitization to make sure only strings that are not empty are able to be added to the list.
+
+As far as deployment goes, I would deploy to [Heroku](https://heroku.com) with the smallest dyno to start, increasing the dyno size/performance with increased traffic. Then, using an APM diagnose when we will be bottlenecking and autoscale horizontally and vertically to add more dynos accordingly.
+
+Styling would be handled using either Bootstrap or Bulma.
+
+## Portfolio
+
+Follow this link to find my [portfolio](http://rhonen.design).
+
+## Development
+
+### Create-React-App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
